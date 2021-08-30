@@ -1,0 +1,153 @@
+@font-face{
+    font-family:'RozhaOne-Regular'; 
+    src: url(../font/RozhaOne-Regular.ttf);
+}
+
+@font-face{
+    font-family:'Poppins-Regular'; 
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family:'Made-tommy-regular'; 
+    src: url(../font/Made-tommy-regular.otf);
+}
+
+/*global*/
+
+body{
+    margin:0 auto;
+    padding: 0;
+    width: 1440px;
+    height: auto;
+    color:#314e5d;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*header*/
+
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+header nav{
+    width: 40%;
+}
+header nav ul{
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    list-style: none;
+    
+}
+header nav ul li a:hover{
+    background: #314e5d;
+    color:white;
+    padding: 10px;
+    text-decoration: underline;
+    
+}
+    
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Poppins-Regular';
+    color: #314e5d;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+/*hero*/
+
+#hero{
+    background-color:#FEFBF1;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.titre-hero{
+    font-family: 'RozhaOne-Regular';
+    font-size: 47px;
+    letter-spacing: 3px;
+    color: #6D5E42;
+    margin: 0;
+}
+
+form{
+    padding-top: 30px;
+}
+#hero form input{
+    font-family: 'Poppins-Regular';
+    font-size: 15px;
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#hero form #abonner{
+    font-family: 'RozhaOne-Regular';
+    font-size: 25px;
+    color:#314e5d;
+    width: 200px;
+    padding-left: 0;
+}
+
+
+
+/*footer*/
+
+footer{
+    background-color:#314e5d;
+    text-align: center;
+    color: #87A4B2;
+}
+
+footer .icon-footer{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer .icon-footer p{
+    background-color: #87A4B2;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+footer .icon-footer p:first-child{
+    border-radius: 10px 0 0px 10px;
+}
+
+footer .icon-footer p:last-child{
+    border-radius: 0 10px 10px 0;
+}
+
+.adresses{
+    display: flex;
+    justify-content: center;
+}
+
+.adresses h5{
+    font-family: 'made-tommy-regular';
+    letter-spacing: 3px;
+}
+
+.adresses .adresse-gestion{
+    padding: 30px;
+}
+
+.adresses .adresse-reserv{
+    padding: 30px;
+}
